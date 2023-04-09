@@ -1,0 +1,51 @@
+.wrap {
+  height: 100%;
+  background: #e9ebf0;
+  color: #0a3258;
+}
+
+.rouletteBox {
+  min-width: 500px;
+  min-height: 500px;
+}
+
+.menu li {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+}
+
+.one {
+  border-top: 300px solid #a5e2f3;
+  transform: rotate(0deg);
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.two {
+  border-top: 300px solid #b0ef86;
+  transform: rotate(-60deg);
+}
+
+.three {
+  border-top: 300px solid #e066eb;
+  transform: rotate(-120deg);
+}
+
+.four {
+  border-top: 300px solid #aee647;
+  transform: rotate(-180deg);
+}
+
+.five {
+  border-top: 300px solid #27b9e2;
+  transform: rotate(-240deg);
+}
+
+.six {
+  border-top: 300px solid #cb1b38;
+  transform: rotate(-300deg);
+}
