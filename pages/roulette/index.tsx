@@ -6,6 +6,8 @@ import styles from './css/roulette.module.css'
 export default function Roulette() {
   return (
     <>
+
+    {/* test */}
       <div className={`${styles.wrap} flex-col`}>
         <h2 className="text-5xl font-semibold text-center py-20">Roulette</h2>
         <div className="flex items-start justify-between">
